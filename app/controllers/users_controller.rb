@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  # No deletes for me coz those 'useless' lines are actually really usefull and part of what makes rails RESTful
   # GET /users
   # GET /users.xml
   def index
